@@ -27,8 +27,8 @@ This extension provides different versions for different Scratch editors. Note t
   - Changed `Scratch.fetch` to `fetch`, since Gandi removed this API.
   - Replaced `Scratch.translate` with a custom lightweight function that supports seven languages.
 - **For TurboWarp**: [./src/tw.js](./src/tw.js)
-
   - Based on the Gandi version, but uses `Scratch.fetch` instead of `fetch`. Still does not fully comply with TurboWarp specifications.
+  - **When using this extension on Turbowarp, it's best to use this version.**
 - **Standard Version**: [./src/index.js](./src/index.js)
 
   - Fully compliant with TurboWarp extension standards. No modified functions.
